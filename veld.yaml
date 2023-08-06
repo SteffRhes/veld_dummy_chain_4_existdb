@@ -1,0 +1,11 @@
+x-veld:
+  chain:
+
+services:
+  veld:
+    extends: 
+      file: ./veld_dummy_executable_4_existdb/veld.yaml
+      service: veld
+    volumes:
+      - ./existdb_volume/:/exist/data/
+
