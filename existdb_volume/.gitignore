@@ -1,0 +1,4 @@
+# Ignore everything in this directory, since db data would outgrow github's quota.
+*
+# Except this file
+!.gitignore
